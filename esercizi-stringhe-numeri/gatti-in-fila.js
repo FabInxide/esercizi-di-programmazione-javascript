@@ -17,3 +17,24 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+
+/*
+LA VERSIONE ORIGINALE
+*/
+var gatti = 44;
+
+var gxfila = 6;
+
+var nfile = gatti/gxfila;
+nfile = Math.ceil(nfile);
+
+var gmancanti = (gxfila*nfile)-gatti;
+gmancanti = Math.ceil(gmancanti);
+
+console.log(`INPUT: Numero Gatti = ${gatti}`);
+console.log(`INPUT: Gatti x ogni fila = ${gxfila}`);
+console.log(`OUTPUT: Numero file = ${nfile}`);
+console.log(`OUTPUT: Gatti mancanti = ${gmancanti}`);

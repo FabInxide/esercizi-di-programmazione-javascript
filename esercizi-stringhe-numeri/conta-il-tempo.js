@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var secondi = 7200;
+
+const secondiInUnOra = 3600;
+
+var ore = secondi/secondiInUnOra;
+
+console.log(ore);
